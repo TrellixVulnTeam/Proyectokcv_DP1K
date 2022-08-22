@@ -280,8 +280,15 @@
 
         .proyecto-grid-gallery .img-box img {
             border-radius: 3px;
-            width: 350px;
-            height: 350px;
+            width: 340px;
+            height: 340px;
+            opacity: 0.7;
+        }
+        .proyecto-grid-gallery .img-box img:hover {
+transform: scale(1.1);
+opacity: 1;
+transition: all 1.2s;
+
         }
 
         .btn-proyectos {
