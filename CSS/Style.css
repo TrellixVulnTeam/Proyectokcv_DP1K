@@ -74,58 +74,16 @@
             box-sizing: border-box;
         }
         /*Menu*/
+        .navbar{
+            z-index: 1;
+           height: 90px;
 
-        .Menu {
-            position: fixed;
-            top: 0px;
-            left: 0px;
-            right: 0px;
-            display: flex;
-            flex-flow: wrap;
-            justify-content: space-between;
-            height: 110px;
-            background-color: white;
-            align-content: center;
-        }
+         }
 
-        .Menu-item a {
-            color: #3e3e3e;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-family: "ProductSans", sans-serif;
-            font-weight: 100;
-            font-size: 13px;
-        }
-
-        .Menu-item a:link {
-            color: #C32908;
-        }
-
-        .Menu img {
-            margin-top: 20px;
-            margin-bottom: 20px;
-            margin-left: 200px;
-        }
-
-        .Menu-item {
-            display: flex;
-            flex-flow: wrap;
-            justify-content: space-between;
-            list-style: none;
-            margin-top: 40px;
-            margin-right: 120px;
-        }
-
-        .Menu-item-elemento {
-            padding: 10px;
-            color: black;
-        }
-
-        .Menu-item-elemento :hover {
-            color: #C32908;
-            font-weight: bold;
-            text-decoration: underline;
-        }
+.navbar-brand {
+    margin-right: 600px;
+    margin-left: 80px;
+}
         /*Slide*/
 
         .Slide {
@@ -500,7 +458,8 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-            height: 600px;
+            height: 700px;
+            margin-top: 0px;
         }
 
         .obras-servicios-h2 {
@@ -508,7 +467,7 @@
             padding-top: 90px;
             font-family: "ProductSans";
             font-size: 20px;
-            margin-bottom: 10px;
+            margin-bottom: 0px;
         }
 
         .obras-servicios-h1 {
@@ -516,15 +475,15 @@
             padding-top: 40px;
             font-family: "ProductSans";
             font-size: 20px;
-            margin-bottom: 10px;
+            margin-bottom: 0px;
         }
 
         .obras-servicios-ul {
             background-color: #C32908;
             color: #fff;
             width: 500px;
-            height: 600px;
-            padding-top: 200px;
+            height: 700px;
+            padding-top: 50px;
             margin-left: 150px;
             display: flex;
             flex-flow: wrap column;
@@ -575,10 +534,10 @@
             display: flex;
             flex-flow: wrap row;
             justify-content: space-between;
-            height: 630px;
+            height: 650px;
             padding-left: 150px;
             padding-right: 150px;
-            margin-top: 100px;
+            margin-top: 70px;
             background-color: #f4f3f3;
             align-content: center;
         }
@@ -645,14 +604,14 @@
 
 
         .contacto-cuerpo-mapa{
-            margin-top: 100px;
+            margin-top: 70px;
         }
 
         .contacto-cuerpo {
             margin-top: 0px;
             background-color: rgb(241, 241, 241);
             padding: 30px;
-            height: 100px;
+            height: 70px;
            padding-bottom: 160px;
             display: flex;
             flex-flow: wrap row;

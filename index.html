@@ -7,30 +7,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Kucevi SRL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
     <link rel="shortcut icon" href="IMG/Favicon.png">
     <link rel="stylesheet" href="CSS/Style.css">
-</head>
 
-<body>
 
-    <!-- Menu
-    <div class="redes">
-        <img src=" ./IMG/Linkedin-rojo-01.png " alt="Linkedin " class="linkedin " width="30px " height="30 ">
-        <img src="./IMG/facebook-rojo.png " alt="facebook " class="facebook " width="30px " height="30 ">
-    </div> -->
-    <header>
-        <nav class="Menu">
-            <img src="./IMG/Logo Kucevi.png " alt="Logo Kucevi SRL " width="250px " height="60 ">
-            <ul class="Menu-item ">
-                <li class="Menu-item-elemento "> <a href="index.html "> Inicio </a> </li>
-                <li class="Menu-item-elemento "> <a href="./Laempresa.html "> La empresa</a></li>
-                <li class="Menu-item-elemento "> <a href="./Obrasyservicios.html "> Obras y Servicios</a> </li>
-                <li class="Menu-item-elemento "><a href="./Clientes.html "> Clientes</a></li>
-                <li class="Menu-item-elemento "><a href="./Contacto.html "> Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
+    <style>
+        @media screen and (max-width:800px){
+
+        .navbar-brand{
+         margin-right: 0px!important;
+         margin-left:0px!important;
+     }   }
+
+
+
+     .navbar{
+       background-color: #ffffff;
+       box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%), inset 0 -1px 0 rgb(0 0 0 / 15%);
+     }
+       .navbar-nav a {
+         color: #3e3e3e;
+             text-decoration: none;
+             text-transform: uppercase;
+             font-family: "ProductSans", sans-serif;
+             font-weight: 100;
+             font-size: 13px;
+       }
+
+       .navbar-nav a:hover {
+         color: #C32908;
+             font-weight: bold;
+             text-decoration: none;
+       }
+
+       .navbar-toggler{
+         background-color: none;
+         padding: 3px 5px;
+       }
+
+     .navbar-toggler-icon{
+         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='black' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+       }
+     </style>
+ </head>
+
+ <body>
+     <!-- Menu -->
+
+     <header>
+         <header>
+             <nav class="navbar navbar-dark  fixed-top navbar-expand-lg bg-light">
+                 <div class="container-fluid">
+                     <img class="navbar-brand"src="IMG/Logo Kucevi.png" alt="Logo Kucevi"  width="230px " height="60 ">
+                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                   </button>
+                   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link"  href="./index.html "> Inicio</a>
+                          </li>
+                           <li class="nav-item">
+                             <a class="nav-link"  href="./laEmpresa.html "> La empresa</a>
+                           </li>
+                           <li class="nav-item">
+                             <a class="nav-link" href="./obras&Servicios.html "> Obras y Servicio</a>
+                           </li>
+                           <li class="nav-item">
+                             <a class="nav-link" href="./Clientes.html "> Clientes</a>
+                           </li>
+                           <li class="nav-item">
+                             <a class="nav-link" href="./Contacto.html "> Contacto</a>
+                           </li>
+                     </ul>
+                   </div>
+                 </div>
+               </nav>
+                 </header>  <main>
 
 
         <!--Slider-->
@@ -71,13 +126,13 @@
         <section class="proyectodiv ">
             <p class="tituloproyecto "> TE MOSTRAMOS NUESTROS</p>
             <h2 class="subtituloproyecto ">TRABAJOS REALIZADOS</h2>
-            <div class="proyecto-grid-gallery ">
+            <div class="proyecto-grid-gallery">
                 <div class="img-box box1"> <img src="./IMG/1web.jpg" alt=" "></div>
                 <div class="img-box box2"><img src="./IMG/4web.jpg" alt=" "></div>
                 <div class="img-box box3"><img src="./IMG/5web.jpg" alt=" "></div>
                 <div class="img-box box4"><img src="./IMG/6web.jpg" alt=" "></div>
             </div>
-            <h4 class="btn-proyectos"> <a href="Obrasyservicios.html"> VER MAS PROYECTOS </a> </h4>
+            <h4 class="btn-proyectos"> <a href="obras&Servicios.html"> VER MAS PROYECTOS </a> </h4>
             </div>
         </section>
     </main>
@@ -116,5 +171,6 @@
 </footer>
 </main>
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
 </html>
