@@ -1,0 +1,23 @@
+{
+  "name": "clase_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Julivitale/Proyectokcv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Julivitale/Proyectokcv/issues"
+  },
+  "homepage": "https://github.com/Julivitale/Proyectokcv#readme",
+  "dependencies": {
+    "node": "^16.17.0"
+  }
+}
