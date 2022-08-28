@@ -1,0 +1,12 @@
+/*variables scss*/
+ul {
+  list-style: none; }
+
+li a {
+  text-decoration: none; }
+
+p {
+  font-family: "WorkSans-VariableFont_wght"; }
+
+h1 h2 {
+  font-family: "ProductSans"; }
