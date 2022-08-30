@@ -1,5 +1,6 @@
 /*variables scss*/
 $font-family:"WorkSans-VariableFont_wght";
+$font-family-2: "ProductSans";
 ul{
     list-style: none;
 }
@@ -14,5 +15,5 @@ p{
 }
 
 h1 h2 {
-    font-family:"ProductSans" ;
+    font-family: $font-family-2;
 }
