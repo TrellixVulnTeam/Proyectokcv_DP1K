@@ -101,7 +101,6 @@
 
         .Titulo {
             font-size: 12px;
-            font-family: "ProductSans";
             color: #ffff;
             letter-spacing: 2px;
             background-color: #C32908;
@@ -112,7 +111,6 @@
 
         .subtitulo {
             font-size: 70px;
-            font-family: "ProductSans";
             font-weight: bold;
             line-height: 60px;
             color: #ffff;
@@ -127,7 +125,6 @@
 
         .Tituloservicios {
             font-size: 15px;
-            font-family: "ProductSans";
             font-weight: 300;
             letter-spacing: 3px;
             color: rgb(49, 49, 49);
@@ -135,7 +132,6 @@
         }
 
         .subtituloservicios {
-            font-family: "ProductSans";
             font-weight: 700px;
             font-size: 45px;
             letter-spacing: 1px;
@@ -145,7 +141,6 @@
 
         .servicio-parrafo {
             width: 300px;
-            font-family: "WorkSans-VariableFont_wght";
             font-weight: lighter;
             font-size: 14px;
             text-align: justify;
@@ -153,19 +148,17 @@
         }
 
         .servicios-imagenes {
-            display: flex;
-            flex-flow: wrap row;
             align-items: center;
             justify-content: space-around;
             height: 200px;
             padding-top: 50px;
             padding: 0px 100px;
             margin-top: 50px;
+
         }
 
         .servicios-h3 {
             font-size: 16px;
-            font-family: "ProductSans";
             width: 200px;
             margin-bottom: 7px;
         }
@@ -192,7 +185,6 @@
 
         .textoparallax {
             font-size: 30px;
-            font-family: "Manrope-VariableFont_wght";
             font-weight: 200px;
             padding-top: 100px;
             color: #fff;
@@ -203,7 +195,6 @@
 
         .tituloproyecto {
             font-size: 15px;
-            font-family: "ProductSans";
             font-weight: 300;
             letter-spacing: 3px;
             color: rgb(49, 49, 49);
@@ -213,7 +204,6 @@
 
         .subtituloproyecto {
             font-size: 40px;
-            font-family: "ProductSans";
             font-weight: bold;
             letter-spacing: 1px;
             color: black;
@@ -221,48 +211,6 @@
             padding-bottom: 0px;
         }
 
-        /*.proyecto-grid-gallery {
-            display: grid;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 5px;
-            padding: 0px 50px;
-            margin-bottom: 50px;
-        }
-
-        .proyecto-grid-gallery .img-box {
-            position: relative;
-        }
-
-        .proyecto-grid-gallery .img-box img {
-            border-radius: 3px;
-            width: 340px;
-            height: 340px;
-            opacity: 0.7;
-        }
-        .proyecto-grid-gallery .img-box img:hover {
-         transform: scale(1.1);
-        opacity: 1;
-    transition: all 1.2s;}
-
-        .btn-proyectos {
-            font-family: "ProductSans";
-            font-size: 12px;
-            letter-spacing: 2px;
-            background-color: #C32908;
-            color: white;
-            border-radius: 10px;
-            text-transform: uppercase;
-            text-align: center;
-            justify-content: center;
-            align-content: center;
-            margin: 0 650px;
-            padding: 10px 20px;
-            margin-bottom: 110px;
-        }
-*/
 
 .container.gallery-container {
     background-color: #fff;
@@ -318,9 +266,9 @@
 
         .piedepagina-subtitulo {
             font-size: 40px;
-            font-family: c;
+
             font-weight: bold;
-            font-family: "ProductSans";
+            /*font-family: "ProductSans";*/
             color: #fff;
             text-align: center;
             padding-bottom: 50px;
@@ -337,7 +285,7 @@
         .piedepagina-cuerpo p {
             color: #ffffff;
             margin-bottom: 10px;
-            font-family: "WorkSans-VariableFont_wght";
+           /* font-family: "WorkSans-VariableFont_wght";*/
             font-size: 15px;
             font-weight: lighter;
             margin-top: 10px;

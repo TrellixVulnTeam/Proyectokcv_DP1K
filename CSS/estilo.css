@@ -1,12 +1,17 @@
 /*variables scss*/
+.servicios-imagenes, .slide {
+  display: flex;
+  flex-flow: wrap row; }
+
 ul {
   list-style: none; }
 
 li a {
-  text-decoration: none; }
+  text-decoration: none;
+  font-family: "ProductSans"; }
 
 p {
   font-family: "WorkSans-VariableFont_wght"; }
 
-h1 h2 {
+h1 h2 h3 {
   font-family: "ProductSans"; }
