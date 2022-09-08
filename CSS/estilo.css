@@ -1,4 +1,3 @@
-/*variables scss*/
 .servicios-imagenes, .slide {
   display: flex;
   flex-flow: wrap row; }
@@ -15,3 +14,19 @@ p {
 
 h1 h2 h3 {
   font-family: "ProductSans"; }
+
+.icono-1 {
+  background-color: #C32908; }
+
+.icono-2 {
+  background-color: #C32908; }
+
+.icono-3 {
+  background-color: #C32908; }
+
+.tlo1, .tlo2, .tlo3, .tlo4 {
+  color: #C32908;
+  font-weight: bolder; }
+
+.rs-1, .rs-2, .rs-3, .rs-4, .rs-5 {
+  background-color: #C32908; }

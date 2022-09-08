@@ -118,6 +118,11 @@
         }
         /*Servicio*/
 
+        .icono{
+            margin: 4px;
+            padding: 5px;
+        }
+
         .servicios {
             background-color: #efeded;
             padding: 90px;
@@ -125,10 +130,10 @@
 
         .Tituloservicios {
             font-size: 15px;
-            font-weight: 300;
             letter-spacing: 3px;
             color: rgb(49, 49, 49);
             text-align: center;
+            font-weight: bolder;
         }
 
         .subtituloservicios {
@@ -166,8 +171,12 @@
         .servicios-imagenes img {
             margin-right: 20px;
             margin-bottom: 20px;
-            width: 26px;
+            padding: 10px;
+            border-radius: 50px;
+            width: 43px;
             height:auto;
+            color:#C32908
+
         }
         /*Parallax*/
 
@@ -195,7 +204,7 @@
 
         .tituloproyecto {
             font-size: 15px;
-            font-weight: 300;
+            font-weight: bolder;
             letter-spacing: 3px;
             color: rgb(49, 49, 49);
             padding-top: 90px;
@@ -302,6 +311,10 @@
             justify-content: center;
             align-content: center;
             margin-top: 50px;
+        }
+
+        .foot1{
+            background-color: red;
         }
         /* ---------------------LA EMPRESA--------------*/
 
@@ -511,9 +524,6 @@
             height: 300px;
         }
 
-        .container-grid-galery span {
-            color: #C32908;
-        }
 
         .container-grid-galery p {
             width: 500px;
@@ -571,18 +581,7 @@
             text-decoration: none;
         }
 
-        .btn-clientes :hover {
-            font-family: "ProductSans";
-            font-size: 12px;
-            letter-spacing: 2px;
-            background-color: #C32908;
-            color: #fff;
-            border-radius: 10px;
-            text-transform: uppercase;
-            margin-top: 20px;
-            padding: 10px;
-            width: 130px;
-        }
+
 
         .clientes-logos {
             width: 750px;
@@ -597,17 +596,22 @@
 
         /* ---------------- CONTACTO --------------*/
 
-
+        .rs-1, .rs-2, .rs-3, .rs-4, .rs-5  {
+            padding: 5px;
+            width: 30px;
+            border-radius: 20px;
+            height: auto;
+        }
         .contacto-cuerpo-mapa{
             margin-top: 70px;
         }
 
+
         .contacto-cuerpo {
             margin-top: 0px;
             background-color: rgb(241, 241, 241);
-            padding: 30px;
-            height: 70px;
-           padding-bottom: 160px;
+            padding: 20px;
+           padding-bottom: 50px;
             display: flex;
             flex-flow: wrap row;
             justify-content: center;

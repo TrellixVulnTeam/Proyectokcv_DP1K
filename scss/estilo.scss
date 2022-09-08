@@ -1,32 +1,40 @@
-/*variables scss*/
-
-@import "fonts";
-
-
-@mixin flex-row {
-    display:flex;
-    flex-flow: wrap row;
-
-}
-
-.servicios-imagenes, .slide {
-    @include flex-row; }
-
-
+@import "fonts"; @mixin flex-row {
+    display: flex;
+    flex-flow: wrap row;}
+    .servicios-imagenes, .slide {
+    @include flex-row;}
 ul{
-    list-style: none;
-}
+    list-style:none;}
 
-li a{
+ li a{
     text-decoration:none;
-    font-family: $font-family-2 ;
-}
-
+    font-family: $font-family-2 ;}
 
 p{
-    font-family: $font-family;
-}
+    font-family: $font-family;}
 
 h1 h2  h3{
-    font-family: $font-family-2;
+    font-family: $font-family-2;}
+$iconoscolor:(
+    1: #C32908 ,
+    2: #C32908,
+    3: #C32908);
+
+@each $iconos, $color in $iconoscolor{
+    .icono-#{$iconos} {
+        background-color: $color;
+    } }
+
+.tlo1{
+    color: #C32908;
+    font-weight: bolder;
+}
+
+.tlo2, .tlo3, .tlo4{
+    @extend .tlo1
+}
+
+
+.rs-1, .rs-2, .rs-3, .rs-4, .rs-5 {
+    background-color: map-get($iconoscolor, 1);
 }
