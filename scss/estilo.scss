@@ -316,9 +316,7 @@ border-radius: 0;
 
 .piedepagina-subtitulo {
     font-size: 40px;
-
     font-weight: bold;
-    /*font-family: "ProductSans";*/
     color: #fff;
     text-align: center;
     padding-bottom: 50px;
@@ -335,7 +333,6 @@ border-radius: 0;
 .piedepagina-cuerpo p {
     color: #ffffff;
     margin-bottom: 10px;
-   /* font-family: "WorkSans-VariableFont_wght";*/
     font-size: 15px;
     font-weight: lighter;
     margin-top: 10px;
@@ -383,7 +380,6 @@ border-radius: 0;
 }
 
 .laempresa-texto p {
-    font-family: "WorkSans-VariableFont_wght";
     font-size: 13px;
     text-align: justify;
     font-weight: lighter;
@@ -419,7 +415,7 @@ border-radius: 0;
 .mision p {
     width: 500px;
     text-align: justify;
-    font-family: "WorkSans-VariableFont_wght";
+
     font-size: 13px;
     font-weight: lighter;
     line-height: 17px;
@@ -427,7 +423,7 @@ border-radius: 0;
 }
 
 .visionmision h2 {
-    font-family: "ProductSans";
+
     font-weight: bold;
     font-size: 18px;
     color: #C32908;
@@ -454,7 +450,7 @@ border-radius: 0;
 
 .valores h2 {
     margin-top: 50px;
-    font-family: "ProductSans";
+
     font-weight: bold;
     font-size: 20px;
     color: #E9E9E9;
@@ -465,13 +461,12 @@ border-radius: 0;
     flex-flow: wrap row;
     justify-content: center;
     justify-items: center;
-    font-family: "WorkSans-VariableFont_wght";
 }
 
 .valores-items p {
     width: 300px;
     text-align: justify;
-    font-family: "WorkSans-VariableFont_wght";
+
     font-size: 14px;
     font-weight: lighter;
     line-height: 19px;
@@ -484,7 +479,7 @@ border-radius: 0;
 .valores-items-elementos p {
     width: 300px;
     text-align: justify;
-    font-family: "WorkSans-VariableFont_wght";
+
     font-size: 14px;
     font-weight: lighter;
     line-height: 19px;
@@ -509,7 +504,6 @@ border-radius: 0;
 .obras-servicios-h2 {
     color: #fff;
     padding-top: 90px;
-    font-family: "ProductSans";
     font-size: 20px;
     margin-bottom: 0px;
 }
@@ -517,7 +511,6 @@ border-radius: 0;
 .obras-servicios-h1 {
     color: #fff;
     padding-top: 40px;
-    font-family: "ProductSans";
     font-size: 20px;
     margin-bottom: 0px;
 }
@@ -592,20 +585,20 @@ border-radius: 0;
 
 .clientes-texto h1 {
     color: #C32908;
-    font-family: "ProductSans";
+
     font-size: 35px;
     margin-bottom: 10px;
 }
 
 .clientes-texto p {
     color: #3e3e3e;
-    font-family: "WorkSans-VariableFont_wght";
+
     font-size: 15px;
     width: 200 px;
 }
 
 .btn-clientes {
-    font-family: "ProductSans";
+
     font-size: 12px;
     letter-spacing: 2px;
     background-color: #C32908;
@@ -667,7 +660,7 @@ border-radius: 0;
 .texto-cto {
     color: #3e3e3e;
     margin-bottom: 10px;
-    font-family: "WorkSans-VariableFont_wght";
+
     font-size: 15px;
     font-weight: lighter;
     margin-top: 10px;
@@ -784,7 +777,6 @@ border-radius: 0;
     color: #3e3e3e;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: "ProductSans", sans-serif;
     font-weight: 100px;
     font-size: 13px;
 }
@@ -836,7 +828,6 @@ border-radius: 0;
 
 .Titulo {
     font-size: 10px;
-    font-family: "ProductSans";
     color: #ffff;
     letter-spacing: 2px;
     background-color: #C32908;
@@ -847,7 +838,6 @@ border-radius: 0;
 
 .subtitulo {
     font-size: 50px;
-    font-family: "ProductSans";
     font-weight: bold;
     line-height: 60px;
     color: #ffff;
@@ -862,7 +852,6 @@ border-radius: 0;
 
 .Tituloservicios {
     font-size: 10px;
-    font-family: "ProductSans";
     font-weight: 300;
     letter-spacing: 3px;
     color: rgb(49, 49, 49);
@@ -871,7 +860,6 @@ border-radius: 0;
 }
 
 .subtituloservicios {
-    font-family: "ProductSans";
     font-weight: 700px;
     font-size: 30px;
     letter-spacing: 1px;
@@ -881,8 +869,7 @@ border-radius: 0;
 
 .servicio-parrafo {
     width: 180px;
-    font-family: "WorkSans-VariableFont_wght";
-    font-weight: lighter;
+       font-weight: lighter;
     font-size: 11px;
     text-align: justify;
     color: rgb(49, 49, 49);
@@ -901,7 +888,6 @@ border-radius: 0;
 
 .servicios-h3 {
     font-size: 12px;
-    font-family: "ProductSans";
     width: 150px;
     margin-bottom: 7px;
 }
@@ -926,7 +912,6 @@ border-radius: 0;
 
 .textoparallax {
     font-size: 19px;
-    font-family: "Manrope-VariableFont_wght";
     font-weight: 200px;
     padding-top: 70px;
     color: #fff;
@@ -937,7 +922,6 @@ border-radius: 0;
 
 .tituloproyecto {
     font-size: 10px;
-    font-family: "ProductSans";
     font-weight: 300;
     letter-spacing: 3px;
     color: rgb(49, 49, 49);
@@ -947,7 +931,6 @@ border-radius: 0;
 
 .subtituloproyecto {
     font-size: 30px;
-    font-family: "ProductSans";
     font-weight: bold;
     letter-spacing: 1px;
     color: black;
@@ -977,7 +960,6 @@ border-radius: 0;
 }
 
 .btn-proyectos {
-    font-family: "ProductSans";
     font-size: 12px;
     letter-spacing: 2px;
     background-color: #C32908;
@@ -1005,9 +987,7 @@ border-radius: 0;
 
 .piedepagina-subtitulo {
     font-size: 30px;
-    font-family: "ProductSans";
     font-weight: bold;
-    font-family: "ProductSans";
     color: #fff;
     text-align: center;
     padding-bottom: 50px;
@@ -1024,7 +1004,6 @@ border-radius: 0;
 .piedepagina-cuerpo p {
     color: #ffffff;
     margin-bottom: 10px;
-    font-family: "WorkSans-VariableFont_wght";
     font-size: 12px;
     font-weight: lighter;
     margin-top: 10px;
@@ -1076,7 +1055,6 @@ border-radius: 0;
 }
 
 .laempresa-texto p {
-    font-family: "WorkSans-VariableFont_wght";
     font-size: 12px;
     text-align: justify;
     font-weight: lighter;
@@ -1088,7 +1066,6 @@ border-radius: 0;
 }
 
 .laempresa-texto h2 {
-    font-family: "ProductSans";
     font-weight: bolder;
     font-size: 15px;
     color: #C32908;
@@ -1112,7 +1089,6 @@ border-radius: 0;
 .mision p {
     width:300px;
     text-align: justify;
-    font-family: "WorkSans-VariableFont_wght";
     font-size: 12px;
     font-weight: lighter;
     line-height: 17px;
@@ -1120,7 +1096,6 @@ border-radius: 0;
 }
 
 .visionmision h2 {
-    font-family: "ProductSans";
     font-weight: bold;
     font-size: 15px;
     color: #C32908;
@@ -1148,7 +1123,6 @@ border-radius: 0;
 
 .valores h2 {
     margin-top: 50px;
-    font-family: "ProductSans";
     font-weight: bold;
     font-size: 15px;
     color: #fffefe;
@@ -1159,13 +1133,11 @@ border-radius: 0;
     flex-flow: wrap row;
     justify-content: center;
     justify-items: center;
-    font-family: "WorkSans-VariableFont_wght";
 }
 
 .valores-items p {
     width:250px;
     text-align:left;
-    font-family: "WorkSans-VariableFont_wght";
     font-size: 12px;
     font-weight: lighter;
     line-height: 15px;
@@ -1178,7 +1150,6 @@ border-radius: 0;
 .valores-items-elementos p {
     width:250px;
     text-align:left;
-    font-family: "WorkSans-VariableFont_wght";
     font-size: 12px;
     font-weight: lighter;
     line-height: 15px;
@@ -1202,7 +1173,6 @@ border-radius: 0;
 .obras-servicios-h2 {
     color: #fff;
     padding-top: 5px;
-    font-family: "ProductSans";
     font-size: 17px;
     margin-bottom: 10px;
 }
@@ -1210,7 +1180,6 @@ border-radius: 0;
 .obras-servicios-h1 {
     color: #fff;
     padding-top: 40px;
-    font-family: "ProductSans";
     font-size: 17px;
     margin-bottom: 10px;
 }
@@ -1226,7 +1195,6 @@ border-radius: 0;
     flex-flow: wrap column;
     justify-content: start;
     padding: 10px 50px;
-    font-family: "WorkSans-VariableFont_wght";
     font-size: 13px;
     margin-bottom: 30px;
 }
@@ -1285,7 +1253,6 @@ border-radius: 0;
 
 .clientes-texto h1 {
     color: #C32908;
-    font-family: "ProductSans";
     font-size: 35px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -1293,13 +1260,12 @@ border-radius: 0;
 
 .clientes-texto p {
     color: #3e3e3e;
-    font-family: "WorkSans-VariableFont_wght";
     font-size: 15px;
     width: 500px;
 }
 
 .btn-clientes {
-    font-family: "ProductSans";
+
     font-size: 12px;
     letter-spacing: 2px;
     background-color: #C32908;
@@ -1318,7 +1284,7 @@ border-radius: 0;
 }
 
 .btn-clientes :hover {
-    font-family: "ProductSans";
+
     font-size: 12px;
     letter-spacing: 2px;
     background-color: #C32908;
@@ -1368,7 +1334,6 @@ border-radius: 0;
 .texto-cto {
     color: #3e3e3e;
     margin-bottom: 10px;
-    font-family: "WorkSans-VariableFont_wght";
     font-size: 12px;
     font-weight: lighter;
     margin-top: 10px;
@@ -1487,7 +1452,6 @@ border-radius: 0;
         color: #3e3e3e;
         text-decoration: none;
         text-transform: uppercase;
-        font-family: "ProductSans", sans-serif;
         font-weight: 100px;
         font-size: 13px;
     }
@@ -1539,7 +1503,6 @@ border-radius: 0;
 
     .Titulo {
         font-size: 10px;
-        font-family: "ProductSans";
         color: #ffff;
         letter-spacing: 2px;
         background-color: #C32908;
@@ -1550,7 +1513,6 @@ border-radius: 0;
 
     .subtitulo {
         font-size: 45px;
-        font-family: "ProductSans";
         font-weight: bold;
         line-height:40px;
         color: #ffff;
@@ -1569,7 +1531,6 @@ border-radius: 0;
 
     .Tituloservicios {
         font-size: 10px;
-        font-family: "ProductSans";
         font-weight: 300;
         letter-spacing: 3px;
         color: rgb(49, 49, 49);
@@ -1578,7 +1539,6 @@ border-radius: 0;
     }
 
     .subtituloservicios {
-        font-family: "ProductSans";
         font-weight: 700px;
         font-size: 30px;
         letter-spacing: 1px;
@@ -1588,7 +1548,6 @@ border-radius: 0;
 
     .servicio-parrafo {
         width: 300px;
-        font-family: "WorkSans-VariableFont_wght";
         font-weight: lighter;
         font-size: 12px;
         text-align: center;
@@ -1609,7 +1568,6 @@ border-radius: 0;
 
     .servicios-h3 {
         font-size: 11px;
-        font-family: "ProductSans";
         width: 100%;
         justify-content: center;
         text-align: center;
@@ -1638,7 +1596,6 @@ border-radius: 0;
 
     .textoparallax {
         font-size: 17px;
-        font-family: "Manrope-VariableFont_wght";
         font-weight: 300px;
         padding-top: 70px;
         color: #fff;
@@ -1649,7 +1606,6 @@ border-radius: 0;
 
     .tituloproyecto {
         font-size: 10px;
-        font-family: "ProductSans";
         font-weight: 300;
         letter-spacing: 3px;
         color: rgb(49, 49, 49);
@@ -1659,7 +1615,6 @@ border-radius: 0;
 
     .subtituloproyecto {
         font-size: 25px;
-        font-family: "ProductSans";
         font-weight: bold;
         letter-spacing: 1px;
         color: black;
@@ -1689,7 +1644,6 @@ border-radius: 0;
     }
 
     .btn-proyectos {
-        font-family: "ProductSans";
         font-size: 11px;
         letter-spacing: 2px;
         background-color: #C32908;
@@ -1721,9 +1675,7 @@ border-radius: 0;
 
     .piedepagina-subtitulo {
         font-size: 30px;
-        font-family: "ProductSans";
         font-weight: bold;
-        font-family: "ProductSans";
         color: #fff;
         text-align: center;
         padding-bottom: 50px;
@@ -1740,7 +1692,6 @@ border-radius: 0;
     .piedepagina-cuerpo p {
         color: #ffffff;
         margin-bottom: 10px;
-        font-family: "WorkSans-VariableFont_wght";
         font-size: 11px;
         font-weight: lighter;
         margin-top: 10px;
@@ -1797,7 +1748,6 @@ border-radius: 0;
     }
 
     .laempresa-texto p {
-        font-family: "WorkSans-VariableFont_wght";
         font-size: 12px;
         text-align: justify;
         font-weight: lighter;
@@ -1809,7 +1759,6 @@ border-radius: 0;
     }
 
     .laempresa-texto h2 {
-        font-family: "ProductSans";
         font-weight: bolder;
         font-size: 15px;
         color: #C32908;
@@ -1833,7 +1782,6 @@ border-radius: 0;
     .mision p {
         width:380px;
         text-align: justify;
-        font-family: "WorkSans-VariableFont_wght";
         font-size: 12px;
         font-weight: lighter;
         line-height: 17px;
@@ -1841,7 +1789,6 @@ border-radius: 0;
     }
 
     .visionmision h2 {
-        font-family: "ProductSans";
         font-weight: bold;
         font-size: 15px;
         color: #C32908;
@@ -1870,7 +1817,6 @@ border-radius: 0;
 
     .valores h2 {
         margin-top: 50px;
-        font-family: "ProductSans";
         font-weight: bold;
         font-size: 15px;
         color: #fffefe;
@@ -1881,13 +1827,11 @@ border-radius: 0;
         flex-flow: wrap row;
         justify-content: center;
         justify-items: center;
-        font-family: "WorkSans-VariableFont_wght";
     }
 
     .valores-items p {
         width:250px;
         text-align:left;
-        font-family: "WorkSans-VariableFont_wght";
         font-size: 12px;
         font-weight: lighter;
         line-height: 15px;
@@ -1900,7 +1844,6 @@ border-radius: 0;
     .valores-items-elementos p {
         width:250px;
         text-align:left;
-        font-family: "WorkSans-VariableFont_wght";
         font-size: 12px;
         font-weight: lighter;
         line-height: 15px;
@@ -1924,7 +1867,6 @@ border-radius: 0;
     .obras-servicios-h2 {
         color: #fff;
         padding-top: 20px;
-        font-family: "ProductSans";
         font-size: 20px;
         margin-bottom: 10px;
     }
@@ -1932,7 +1874,6 @@ border-radius: 0;
     .obras-servicios-h1 {
         color: #fff;
         padding-top: 20px;
-        font-family: "ProductSans";
         font-size: 15px;
         margin-bottom: 10px;
     }
@@ -1948,7 +1889,6 @@ border-radius: 0;
         flex-flow: wrap column;
         justify-content: start;
         padding: 50px 50px;
-        font-family: "WorkSans-VariableFont_wght";
         font-size: 12px;
         margin-bottom: 10px;
     }
@@ -2006,7 +1946,6 @@ border-radius: 0;
 
     .clientes-texto h1 {
         color: #C32908;
-        font-family: "ProductSans";
         font-size: 30px;
         margin-bottom: 10px;
         text-align: center;
@@ -2014,7 +1953,6 @@ border-radius: 0;
 
     .clientes-texto p {
         color: #3e3e3e;
-        font-family: "WorkSans-VariableFont_wght";
         font-size: 12px;
         width: 350px;
         text-align: center;
@@ -2026,7 +1964,6 @@ justify-content: center;
 margin-left: 120px
 }
     .btn-clientes {
-        font-family: "ProductSans";
         font-size: 12px;
         letter-spacing: 2px;
         background-color: #C32908;
@@ -2045,7 +1982,6 @@ margin-left: 120px
     }
 
     .btn-clientes :hover {
-        font-family: "ProductSans";
         font-size: 12px;
         letter-spacing: 2px;
         background-color: #C32908;
@@ -2097,7 +2033,6 @@ margin-left: 120px
 .texto-cto {
     color: #3e3e3e;
     margin-bottom: 10px;
-    font-family: "WorkSans-VariableFont_wght";
     font-size: 12px;
     font-weight: lighter;
     margin-top: 10px;
